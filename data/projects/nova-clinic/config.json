@@ -1,0 +1,10 @@
+{
+  "title": "Nova Clinic System",
+  "description": "Full-stack clinic management platform with real-time chat, appointment scheduling, and user management. .NET 9 DDD backend + Vue 3 admin dashboard.",
+  "longDescription": "A complete clinic management solution built with a Domain-Driven Design (DDD) .NET 9 backend and a Vue 3 admin frontend. Features real-time chat via SignalR, appointment management, JWT authentication, and Serilog structured logging. The frontend uses Ant Design Vue, ECharts for data visualization, and Vuetify components.",
+  "tags": ["C#", ".NET 9", "Vue 3", "PostgreSQL", "SignalR", "ECharts", "Docker"],
+  "thumbnail": "thumbnail.jpg",
+  "githubUrl": "https://github.com/jakkapong007/nova-clinic-api",
+  "featured": true,
+  "order": 3
+}
