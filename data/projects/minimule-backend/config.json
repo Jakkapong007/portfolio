@@ -3,7 +3,6 @@
   "description": "Production-ready GraphQL API for a Thai art & sticker marketplace. Built with Go, featuring JWT auth, Redis rate-limiting, and Kubernetes deployment.",
   "longDescription": "A fully-featured GraphQL API backend for miniMule, a Thai art & craft marketplace where independent artists sell sticker designs and handmade goods. Built with Go 1.22, PostgreSQL 15, Redis, and deployed on Kubernetes with HPA. Features include authentication, product management, shopping cart, order tracking, social feed, promo codes, and notifications.",
   "tags": ["Go", "GraphQL", "PostgreSQL", "Redis", "Docker", "Kubernetes", "JWT"],
-  "thumbnail": "thumbnail.jpg",
   "githubUrl": "https://github.com/jakkapong007/minimule-backend",
   "featured": true,
   "order": 1

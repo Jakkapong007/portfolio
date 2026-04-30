@@ -1,6 +1,10 @@
 'use client'
 
+import { useState } from 'react'
 import { useInView } from '@/hooks/useInView'
+
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || ''
+const PROFILE_SRC = `${basePath}/projects/portfolio-site/profile.jpg`
 
 const facts = [
   { label: 'Location', value: 'Samut Prakan, Thailand' },
@@ -11,6 +15,7 @@ const facts = [
 
 export default function About() {
   const { ref, inView } = useInView()
+  const [imgError, setImgError] = useState(false)
 
   return (
     <section
@@ -24,11 +29,23 @@ export default function About() {
             inView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
           }`}
         >
-          {/* Avatar */}
+          {/* Profile photo / avatar */}
           <div className="lg:col-span-2 flex justify-center lg:justify-start">
             <div className="relative">
-              <div className="w-56 h-56 rounded-3xl bg-gradient-to-br from-emerald-400/10 to-teal-400/10 border border-zinc-800 flex items-center justify-center text-6xl font-display font-bold text-zinc-700 select-none">
-                JK
+              <div className="w-56 h-56 rounded-3xl overflow-hidden border border-zinc-800 bg-gradient-to-br from-emerald-400/10 to-teal-400/10">
+                {imgError ? (
+                  <div className="w-full h-full flex items-center justify-center text-6xl font-display font-bold text-zinc-700 select-none">
+                    JK
+                  </div>
+                ) : (
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img
+                    src={PROFILE_SRC}
+                    alt="Jakkapong Karndee"
+                    className="w-full h-full object-cover"
+                    onError={() => setImgError(true)}
+                  />
+                )}
               </div>
               <div className="absolute -top-3 -left-3 w-8 h-8 border-t-2 border-l-2 border-emerald-400/60 rounded-tl-lg" />
               <div className="absolute -bottom-3 -right-3 w-8 h-8 border-b-2 border-r-2 border-teal-400/60 rounded-br-lg" />

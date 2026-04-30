@@ -3,7 +3,7 @@
   "description": "React Native / Expo mobile storefront and social feed for the miniMule art marketplace. Apollo Client + GraphQL with real-time cart and order management.",
   "longDescription": "A full-featured mobile application built with Expo SDK 54 and React Native 0.81. Users can browse and purchase sticker designs, follow a social feed, create posts with image uploads, manage their cart, track orders, and receive notifications. Integrates seamlessly with the miniMule GraphQL backend via Apollo Client.",
   "tags": ["React Native", "Expo", "TypeScript", "Apollo Client", "GraphQL"],
-  "thumbnail": "thumbnail.jpg",
+  "thumbnail": "minimule_mobile_shop.jpg",
   "githubUrl": "https://github.com/jakkapong007/minimule-mobile",
   "featured": true,
   "order": 2

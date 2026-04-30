@@ -3,7 +3,7 @@
   "description": "LINE Front-end Framework (LIFF) mini-app for LINE platform integration. Built with React, Vite, shadcn-ui, and React Query for seamless LINE ecosystem features.",
   "longDescription": "A LINE LIFF (LINE Front-end Framework) web application enabling LINE Mini App functionality. Built with React 18, Vite, and the shadcn-ui component library. Features include LINE authentication, data fetching via TanStack React Query, form validation with React Hook Form + Zod, Framer Motion animations, and Embla Carousel.",
   "tags": ["React", "TypeScript", "LINE LIFF", "Vite", "shadcn-ui", "Tailwind CSS"],
-  "thumbnail": "thumbnail.jpg",
+  "thumbnail": "nova_clinic_line_form.jpg",
   "githubUrl": "https://github.com/jakkapong007/liff-link-portal",
   "order": 4
 }
