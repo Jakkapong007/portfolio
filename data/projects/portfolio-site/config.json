@@ -3,7 +3,6 @@
   "description": "Personal portfolio with automatic project detection from a data folder. Built with Next.js 14 static export and deployed to GitHub Pages via GitHub Actions.",
   "longDescription": "A professional portfolio site that auto-discovers projects from a local data folder — drop in a config.json and media files and they appear on the site automatically. Built with Next.js 14 (static export), Tailwind CSS, and TypeScript. Deployed automatically to GitHub Pages on every push via GitHub Actions CI/CD pipeline.",
   "tags": ["Next.js", "TypeScript", "Tailwind CSS", "GitHub Actions"],
-  "thumbnail": "profile.jpg",
   "githubUrl": "https://github.com/jakkapong007/portfolio",
   "liveUrl": "https://jakkapong007.github.io/portfolio",
   "order": 5
