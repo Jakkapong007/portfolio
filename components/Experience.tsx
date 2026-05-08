@@ -8,7 +8,7 @@ const experiences = [
     company: 'HMMT',
     location: 'Samut Prakan, TH',
     period: 'Mar 2025 – Mar 2026',
-    current: true,
+    current: false,
     highlights: [
       'Designed and developed a web-based system to manage, forecast, and export car & truck parts data, handling large datasets and business-critical workflows',
       'Improved system reliability by resolving defects, refactoring legacy code, and enforcing better coding standards',

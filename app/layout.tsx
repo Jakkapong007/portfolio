@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     title: 'Jakkapong Karndee — Full-Stack Developer',
     description: 'Building scalable APIs and modern web applications.',
     type: 'website',
-    url: 'https://jakkapong007.github.io',
+    url: 'https://jakkapong007.github.io/portfolio/',
   },
 }
 
