@@ -21,7 +21,7 @@ const experiences = [
     company: 'Fastwork',
     location: 'Remote',
     period: 'Jun 2024 – Present',
-    current: true,
+    current: false,
     highlights: [
       'Designed and developed a full-stack clinic management system using ASP.NET MVC with a scalable multi-layered architecture (Repository, Service, and Web layers)',
       'Led all architectural decisions independently, ensuring maintainability and separation of concerns',
